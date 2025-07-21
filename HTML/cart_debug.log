@@ -1,0 +1,22 @@
+Session at start:
+Array
+(
+    [user_id] => 1
+    [email] => ifraa.zaib@gmail.com
+    [user_type] => user
+    [error] => Error processing your order: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'where clause'
+)
+
+User ID: 1
+Order Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ci.user_id' in 'where clause'
+Session at start:
+Array
+(
+    [user_id] => 1
+    [email] => ifraa.zaib@gmail.com
+    [user_type] => user
+    [error] => Order Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ci.user_id' in 'where clause'
+)
+
+User ID: 1
+Order Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ci.user_id' in 'where clause'

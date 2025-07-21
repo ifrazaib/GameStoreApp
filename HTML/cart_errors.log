@@ -1,0 +1,2 @@
+[11-May-2025 06:49:39 Europe/Berlin] Order Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ci.user_id' in 'where clause'
+[11-May-2025 06:49:43 Europe/Berlin] Order Error: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ci.user_id' in 'where clause'

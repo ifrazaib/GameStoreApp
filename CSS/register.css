@@ -1,0 +1,175 @@
+/* General Page Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('register_back.PNG'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  /* Game Store Button */
+  .game-logo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 300px;
+    z-index: 2;
+    background-color: rgba(255, 0, 106, 0.8);
+    color: var(--text-color);
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Form Wrapper */
+  .form-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Register Form Container */
+  .register-container {
+    background-color: rgba(62, 39, 35, 0.85);
+    border-radius: 14px;
+    padding: 30px 20px;
+    width: 50%;
+    max-width: 400px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-top: 80px;
+  }
+  
+  /* Form Title */
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Input Fields */
+  .input-group {
+    margin-bottom: 16px;
+    position: relative;
+  }
+  
+  .input-group label {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #bdbdbd;
+    color: black;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  .icon {
+    position: absolute;
+    right: 10px;
+    top: 38px;
+    color: #555;
+    font-size: 0.9rem;
+  }
+  
+  /* Register Button */
+  .register-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(73, 128, 0);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-btn:hover {
+    background-color: #517e1e;
+  }
+  
+  /* Login Link */
+  .login-link {
+    text-align: center;
+    margin-top: 12px;
+    font-size: 0.9rem;
+  }
+  
+  .login-link a {
+    color: #90f9a1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Responsive for Mobile */
+  @media (max-width: 480px) {
+    .register-container {
+      padding: 20px;
+      width: 90%;
+    }
+  
+    .game-logo {
+      font-size: 1.8rem;
+    }
+  
+    .register-btn {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Animations for leaves and flowers */
+  .leaf, .flower {
+    position: absolute;
+    top: -50px;
+    animation: fall 10s linear infinite;
+  }
+  
+  .leaf {
+    width: 20px;
+    height: 20px;
+    background-color: #4caf50; /* Leaf color */
+    border-radius: 50%;
+    opacity: 0.7;
+  }
+  
+  .flower {
+    width: 20px;
+    height: 20px;
+    background-color: #f44336; /* Flower color */
+    border-radius: 50%;
+    opacity: 0.8;
+  }
+  
+  @keyframes fall {
+    0% {
+      top: -50px;
+      transform: rotate(0deg);
+    }
+    100% {
+      top: 100vh;
+      transform: rotate(360deg);
+    }
+  }
+
+  

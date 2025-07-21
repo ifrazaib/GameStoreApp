@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login - Treasure Hunt</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="../CSS/login.css" />
+</head>
+<body>
+  <!-- Animated leaves -->
+  <div class="leaves" id="leaves"></div>
+  
+  <!-- Game logo -->
+  <div class="game-logo">GAME STORE</div>
+  
+  <div class="center-page">
+    <div class="login-container">
+      <form method="POST" action="login.php"> <!-- Fixed form action -->
+        <!-- Treasure decorations -->
+        <div class="treasure-decoration treasure-top-left"></div>
+        <div class="treasure-decoration treasure-top-right"></div>
+        <div class="treasure-decoration treasure-bottom-left"></div>
+        <div class="treasure-decoration treasure-bottom-right"></div>
+        
+        <h2>Login</h2>
+        
+        <div class="input-group">
+          <label for="email">Email</label>
+          <i class="fas fa-envelope icon"></i>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required> <!-- Added name attribute -->
+        </div>
+        
+        <div class="input-group">
+          <label for="password">Password</label>
+          <i class="fas fa-lock icon"></i>
+          <input type="password" id="password" name="password" placeholder="Enter your password" required> <!-- Added name attribute -->
+        </div>
+        
+        <button type="submit" class="login-btn">
+          Login
+        </button>
+        
+        <p class="register-link">Don't have an account? <a href="register.html">Register</a></p>
+      </form>
+    </div>
+  </div>
+  
+  <script src="../JS/login.js"></script>
+</body>
+</html>

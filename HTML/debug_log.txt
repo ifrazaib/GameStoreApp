@@ -1,0 +1,36 @@
+POST:
+Array
+(
+)
+
+SESSION:
+Array
+(
+    [user_id] => 1
+    [email] => ifraa.zaib@gmail.com
+    [user_type] => user
+)
+POST:
+Array
+(
+)
+
+SESSION:
+Array
+(
+    [user_id] => 1
+    [email] => ifraa.zaib@gmail.com
+    [user_type] => user
+)
+POST:
+Array
+(
+)
+
+SESSION:
+Array
+(
+    [user_id] => 1
+    [email] => ifraa.zaib@gmail.com
+    [user_type] => user
+)
